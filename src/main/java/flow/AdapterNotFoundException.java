@@ -1,4 +1,4 @@
 package flow;
 
-public class AdapterNotFoundException extends Throwable {
+public class AdapterNotFoundException extends Exception {
 }

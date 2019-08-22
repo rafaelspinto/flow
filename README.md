@@ -1,6 +1,6 @@
 # Flow Oriented Programming
 
-[![Build Status](https://travis-ci.org/rafaelspinto/flow.svg?branch=master)](https://travis-ci.org/rafaelspinto/flow)
+[![Build Status](https://travis-ci.org/rafaelspinto/flow.svg?branch=master)](https://travis-ci.org/rafaelspinto/flow)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rafaelspinto%3Aflow&metric=alert_status)](https://sonarcloud.io/dashboard?id=rafaelspinto%3Aflow)[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rafaelspinto%3Aflow&metric=coverage)](https://sonarcloud.io/dashboard?id=rafaelspinto%3Aflow)[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rafaelspinto%3Aflow&metric=code_smells)](https://sonarcloud.io/dashboard?id=rafaelspinto%3Aflow)[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rafaelspinto%3Aflow&metric=bugs)](https://sonarcloud.io/dashboard?id=rafaelspinto%3Aflow)[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=rafaelspinto%3Aflow&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=rafaelspinto%3Aflow)[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=rafaelspinto%3Aflow&metric=sqale_index)](https://sonarcloud.io/dashboard?id=rafaelspinto%3Aflow)
 
 The objective of this project is to provide a framework to design interactions between system components using a flow oriented approach. 
 

@@ -1,4 +1,4 @@
 package flow;
 
-public class EmptyFlowException extends Throwable {
+public class EmptyFlowException extends Exception {
 }
