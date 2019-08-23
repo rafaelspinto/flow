@@ -1,7 +1,7 @@
 package flow;
 
 public interface IAction<T> {
-  T execute();
+  T execute() throws Exception;
 
   String getType();
 }

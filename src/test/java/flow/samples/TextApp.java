@@ -12,7 +12,7 @@ public class TextApp implements IApp<String> {
     responses = new LinkedList<String>();
   }
 
-  public String in(IEvent event) {
+  public String in(IEvent event) throws Exception {
     String request = (String) event.trigger();
     String response = makeResponse(request);
     responses.add(response);

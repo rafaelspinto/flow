@@ -5,7 +5,7 @@ import flow.IAdapter;
 import flow.IEvent;
 
 public class TextAdapter implements IAdapter<IAction> {
-  public IEvent adapt(IAction action) {
+  public IEvent adapt(IAction action) throws Exception {
     String value = (String) action.execute();
     return new TextEvent(value);
   }

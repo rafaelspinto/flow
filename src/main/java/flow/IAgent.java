@@ -3,5 +3,5 @@ package flow;
 import java.util.List;
 
 public interface IAgent {
-  List<IAction> act();
+  List<IAction> act() throws Exception;
 }

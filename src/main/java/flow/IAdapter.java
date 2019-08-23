@@ -1,5 +1,5 @@
 package flow;
 
 public interface IAdapter<IAction> {
-  IEvent adapt(IAction action);
+  IEvent adapt(IAction action) throws Exception;
 }

@@ -14,7 +14,7 @@ public class Engine {
     this.app = app;
   }
 
-  public void run() throws EmptyFlowException, AdapterNotFoundException {
+  public void run() throws Exception {
     List<IAction> flow = agent.act();
     if (flow.isEmpty()) {
       throw new EmptyFlowException();
