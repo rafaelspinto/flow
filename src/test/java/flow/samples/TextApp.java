@@ -1,5 +1,7 @@
 package flow.samples;
 
+import flow.ActionException;
+import flow.EventException;
 import flow.IApp;
 import flow.IEvent;
 
@@ -12,7 +14,7 @@ public class TextApp implements IApp<String> {
     responses = new LinkedList<String>();
   }
 
-  public String in(IEvent event) throws Exception {
+  public String in(IEvent event) throws EventException, ActionException {
     String request = (String) event.trigger();
     String response = makeResponse(request);
     responses.add(response);

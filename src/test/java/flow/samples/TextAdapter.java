@@ -1,11 +1,9 @@
 package flow.samples;
 
-import flow.IAction;
-import flow.IAdapter;
-import flow.IEvent;
+import flow.*;
 
 public class TextAdapter implements IAdapter<IAction> {
-  public IEvent adapt(IAction action) throws Exception {
+  public IEvent adapt(IAction action) throws ActionException {
     String value = (String) action.execute();
     return new TextEvent(value);
   }
